@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BookingHelper
 {
-    class Booking
+    public class Booking
     {
         public string Status { get; set; }
         public int Id { get; set; }

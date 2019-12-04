@@ -2,7 +2,7 @@
 
 namespace BookingHelper
 {
-    interface IBookingRepository
+    public interface IBookingRepository
     {
         IQueryable<Booking> GetActiveBookings(int? excludedBookingId = null);
     }
